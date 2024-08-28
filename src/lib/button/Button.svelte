@@ -5,6 +5,7 @@
 	export let y = 0;
 	export let transform = false;
 	export let href = '';
+	export let active = false;
 
 	let element: HTMLElement;
 
@@ -38,7 +39,8 @@
 	<a
 		{href}
 		style={transform ? `left: ${left}px; top: ${top}px` : ''}
-		class="button bg-orange-400 px-2 py-1 text-white hover:bg-orange-500"><slot /></a
+		class="button bg-orange-400 px-2 py-1 font-bold text-white hover:bg-orange-500 text-xl"
+		class:bg-orange-500={active}><slot /></a
 	>
 </span>
 

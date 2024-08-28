@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { InstagramIcon, MailIcon } from 'svelte-feather-icons';
+	import { InstagramIcon, MailIcon, LinkedinIcon } from 'svelte-feather-icons';
 </script>
 
-<div class="h-full flex flex-col items-center">
-	<span class="text-7xl py-20">Annabel Adema</span>
-	<span class="max-w-lg text-center font-bold text-2xl">
+<div class="h-full flex flex-col items-center text-center">
+	<h1 class="py-16 text-7xl">Annabel Adema</h1>
+	<span class="max-w-lg text-center font-bold">
 		Welkom op mijn website! <br /> Ik maak illustraties, animaties en autonoom werk. Hier is mijn werk
 		te zien, kan je werk kopen en opdrachten aanvragen!
 	</span>
@@ -21,6 +21,12 @@
 			class="p-2 rounded-full bg-blue-500 text-white hover:bg-blue-600"
 		>
 			<MailIcon />
+		</a>
+		<a
+			href="https://nl.linkedin.com/in/annabel-adema-326108246?original_referer=https%3A%2F%2Fwww.google.com%2F"
+			class="p-2 rounded-full bg-blue-500 text-white hover:bg-blue-600"
+		>
+			<LinkedinIcon />
 		</a>
 	</div>
 </div>
