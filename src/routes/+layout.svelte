@@ -2,9 +2,8 @@
 	import { page } from '$app/stores';
 	import Button from '$lib/button/Button.svelte';
 	import { onMount } from 'svelte';
-	import { HomeIcon } from 'svelte-feather-icons';
-	import '../app.postcss';
 	import { fade } from 'svelte/transition';
+	import '../app.postcss';
 
 	export let data;
 
